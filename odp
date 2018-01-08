@@ -1,0 +1,15 @@
+Na wstępie to nie wiedziałem czy miałem zrzucić te pliki z komputeraz lokalnego
+Repoz1
+jeśli Repo1 miało być puste:
+wszystkie pliki są śledzone ponieważ została użyta komenda git add .
+pliki .gitignore moj_program.c i readme są nowymi plikami i oczekuja w poczekalni
+one.txt two.txt three.txt są śledzone ale są pomijane przez gita ponieważ w pliku .gitignore znajduje się *.txt co daje informacje żeby zostały zignorowane wszystkie pliki z rozszerzeniem .txt
+
+Jeśli miałem skopiowac zawartośc Repoz1 do Repo1:
+wszystkie pliki są śledzone ponieważ została użyta komenda git add .
+pliki .gitignore moj_program.c są nowymi plikami i oczekuja w poczekalni
+readme jest plikiem zmodyfikowanym i również czeka w poczekalni
+one.txt two.txt three.txt są śledzone ale są pomijane przez gita ponieważ w pliku .gitignore znajduje się *.txt co daje informacje żeby zostały zignorowane wszystkie pliki z rozszerzeniem .txt
+
+plik odp po zapisaniu będzie nieśledzony ale po użyciu komendy git add też będzie śledzony a git commit zatwierdzi mi zmiany :D
+
