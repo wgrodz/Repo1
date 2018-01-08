@@ -6,5 +6,6 @@ for (( i=1; $i <= 3; i++ )) ; do
 done
 
 echo $USER
+echo "$(date)"
 echo "Witaj"
 
